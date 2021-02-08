@@ -38,7 +38,7 @@ lyr_GoogleMaps_0.setVisible(true);lyr_df_gisSheet1_1.setVisible(true);
 var layersList = [lyr_GoogleMaps_0,lyr_df_gisSheet1_1];
 lyr_df_gisSheet1_1.set('fieldAliases', {'Field1': 'Field1', 'segmentation_parcial': 'segmentation_parcial', 'calle_principal': 'calle_principal', });
 lyr_df_gisSheet1_1.set('fieldImages', {'Field1': 'TextEdit', 'segmentation_parcial': 'TextEdit', 'calle_principal': 'TextEdit', });
-lyr_df_gisSheet1_1.set('fieldLabels', {'Field1': 'inline label', 'segmentation_parcial': 'inline label', 'calle_principal': 'inline label', });
+lyr_df_gisSheet1_1.set('fieldLabels', {'Field1': 'no label', 'segmentation_parcial': 'no label', 'calle_principal': 'no label', });
 lyr_df_gisSheet1_1.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
